@@ -128,7 +128,7 @@ const BiblicalGallery = () => {
                   )}
                   <div className='caption-container'>
                     <div
-                      className='caption'
+                      className='image-caption'
                       dangerouslySetInnerHTML={{ __html: image.caption }}
                     />
                   </div>
@@ -163,7 +163,7 @@ const BiblicalGallery = () => {
                   )}
                   <div className='caption-container'>
                     <div
-                      className='caption'
+                      className='image-caption'
                       dangerouslySetInnerHTML={{ __html: image.caption }}
                     />
                   </div>

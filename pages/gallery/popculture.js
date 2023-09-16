@@ -167,7 +167,7 @@ const PopCultureGallery = () => {
                   )}
                   <div className='caption-container'>
                     <div
-                      className='caption'
+                      className='image-caption'
                       dangerouslySetInnerHTML={{ __html: image.caption }}
                     />
                   </div>
@@ -202,7 +202,7 @@ const PopCultureGallery = () => {
                   )}
                   <div className='caption-container'>
                     <div
-                      className='caption'
+                      className='image-caption'
                       dangerouslySetInnerHTML={{ __html: image.caption }}
                     />
                   </div>
