@@ -6,6 +6,18 @@ const DailyLifeGallery = () => {
   const [expandedImage, setExpandedImage] = useState(null);
 
   const images = [
+    { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/dailylife/clothes-shopping1.jpeg', 
+      caption: "21, Forever<br><br>\
+      Fresh threads on display,<br>\
+      Choices to brighten the day,<br>\
+      Style in every way.", 
+      text: 'Project 1 Overview' },
+    { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/dailylife/traffic1.jpeg', 
+      caption: "Seattle-bound Traffic<br><br>\
+      Traffic's endless flow,<br>\
+      Seattle's streets in a tight grip,<br>\
+      Time moves painfully slow.", 
+      text: 'Project 1 Overview' },
     { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/dailylife/ryan-macncheese-1.jpeg', 
       caption: "Curator Ryan Enjoys a Bowl of Mac 'n Cheese<br><br>\
       Creamy mac 'n cheese,<br>\
