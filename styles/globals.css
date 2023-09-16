@@ -140,3 +140,12 @@ html {
   margin-top: 10px; /* Add spacing between description and image */
   font-size: 1rem; /* Adjust font size as needed */
 }
+
+.image-caption {
+  font-weight: normal;
+}
+
+/* Define a selector to target the first line in the caption */
+.image-caption::first-line {
+  font-weight: bold; /* Reset font weight for the first line to normal */
+}
