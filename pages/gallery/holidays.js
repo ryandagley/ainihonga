@@ -6,6 +6,12 @@ const HolidaysGallery = () => {
   const [expandedImage, setExpandedImage] = useState(null);
 
   const images = [
+    { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/holidays/fourthofjuly1.jpeg', 
+      caption: "Celebrating a Nation's Independence<br><br>\
+      Fireworks burst and bloom,<br>\
+      Fourth of July's bright embrace,<br>\
+      Freedom's joy ignites.", 
+      text: 'Project 1 Overview' },
     { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/holidays/santaclaus1.jpeg', 
       caption: "Santa Claus: Ready for Christmas<br><br>\
       Santa's list is long,<br>\
