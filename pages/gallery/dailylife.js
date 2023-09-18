@@ -6,6 +6,12 @@ const DailyLifeGallery = () => {
   const [expandedImage, setExpandedImage] = useState(null);
 
   const images = [
+    { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/dailylife/mansteak1.png', 
+      caption: "$120 Wagyu<br><br>\
+      Savoring each bite,<br>\
+      Man and steak in perfect sync,<br>\
+      Joyful taste ignites.", 
+      text: 'Project 1 Overview' },
     { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/dailylife/clothes-shopping1.jpeg', 
       caption: "21, Forever<br><br>\
       Fresh threads on display,<br>\
