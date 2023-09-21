@@ -6,7 +6,7 @@ const DailyLifeGallery = () => {
   const [expandedImage, setExpandedImage] = useState(null);
 
   const images = [
-      { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/dailylife/cigar.jpeg', 
+      { src: 'https://ai-nihonga-media.s3.us-west-2.amazonaws.com/dailylife/cigar1.jpeg', 
       caption: "Man Enjoys Cigar<br><br>\
       Rich smoke curls upward,<br>\
       Embers glow in evening's hush,<br>\
